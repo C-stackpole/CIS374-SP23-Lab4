@@ -54,11 +54,10 @@ namespace Lab4
 
             // compute distance between first letters of first name
 
-            char c = char.toLower(this.FirstName[0]);
-            char d = char.toLower(other.FirstName[0]);
+            int c = this.FirstName[0];
+            int d = other.FirstName[0];
 
             int difference = Math.Abs( c - d );
-
 
             return difference;
         }
